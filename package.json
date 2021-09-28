@@ -1,0 +1,32 @@
+{
+  "name": "turn-tables",
+  "version": "1.0.0",
+  "description": "mySQL CLI team management application ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atommielcarek/turn-tables.git"
+  },
+  "keywords": [
+    "mySQL",
+    "CLI",
+    "JS",
+    "Node"
+  ],
+  "author": "atommielcarek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atommielcarek/turn-tables/issues"
+  },
+  "homepage": "https://github.com/atommielcarek/turn-tables#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.5",
+    "mysql": "^2.18.1"
+  }
+}
